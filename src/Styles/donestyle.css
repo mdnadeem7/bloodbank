@@ -1,0 +1,77 @@
+.form1
+{
+    display:flex;
+    margin-top: 0.5%;
+}
+.form1 input{
+    color: black;
+    height: 1.4vw;
+    border-radius: 2vw;
+    width: 8vw;
+    margin-top: 8%;
+    margin-left: 2%;
+    border: none;
+}
+.filterme
+{
+   
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color:rgb(44, 32, 116);
+}
+.groupF
+{   margin-top: 0.5%;
+    display: flex;
+    justify-items: flex-start;
+}
+.gitem
+{
+  
+    width: 2vw;
+    height: 2vw;
+    border-radius: 0 50% 50% 50%;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    margin-top: 1vw;
+    
+}
+.gitem p
+{
+    font-size: 1vw;
+    transform: rotate(-45deg);
+    margin: 1%;
+}
+.gitem:hover
+{
+    background-color: red;
+}
+.donelist
+{
+    display: block;
+   
+}
+.doneeitemhead
+{
+    display: flex;
+    font-size: 1.3vw;
+    margin-top: 1%;
+    color: white;
+    justify-content: space-around;
+    background-color: rgb(44, 32, 116);
+}
+.doneeitem
+{
+    display: flex;
+    font-size: 1.3vw;
+    margin-top: 1%;
+    color: black;
+    justify-content: space-around;
+    box-shadow: 0px 0px 3px 1px rgb(44, 32, 116) ;
+}
+.doneeitem:hover{
+    background-color: rgb(44, 32, 116);
+    color: white;
+}

@@ -1,0 +1,39 @@
+
+.login
+{
+    color: rgb(224, 36, 36);
+    display:flex;
+    justify-content: right;
+    background-color:transparent;
+}
+
+.login  form input
+{
+    width: 20vw;
+    border-radius: 10px;
+    border:solid rgb(0, 0, 0);
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+}
+.login  form button
+{
+    color: white;
+     border-radius: 10px;
+    border:solid white;
+    background-color: red;
+    height: fit-content;
+    padding: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.login  form button:hover
+{
+   background-color: transparent;
+   border: solid green;
+   color:black
+}
+.login form
+{
+margin: 5%;
+}
